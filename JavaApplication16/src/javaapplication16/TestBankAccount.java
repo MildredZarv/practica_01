@@ -9,13 +9,12 @@ package javaapplication16;
  *
  * @author MildReed Zaarv'
  */
-public class JavaApplication16 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class TestBankAccount {
+    public static void main(String[]args){
+        BankAccount a1= new BankAccount();
+        BankAccount a2= new BankAccount();
+        BankAccount a3= new BankAccount();
+        BankAccount a4= new BankAccount();
     }
     
 }
