@@ -45,6 +45,10 @@ public class Painting {
      public String getmedio(){
         return medio;
     }
+     
+     public int getprecio(){
+         return precio;
+     }
       public void setprecio(Integer a){
         this.precio=a;
     }
@@ -52,5 +56,8 @@ public class Painting {
      public double getcomision(){
         return comision;
     }
+     public void setcomision(Integer a){
+         this.comision=a*0.2;
+     }
     
 }

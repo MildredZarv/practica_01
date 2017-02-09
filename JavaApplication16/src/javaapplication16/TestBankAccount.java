@@ -4,17 +4,25 @@
  * and open the template in the editor.
  */
 package javaapplication16;
-
-/**
- *
- * @author MildReed Zaarv'
- */
+import java.util.Scanner;
 public class TestBankAccount {
     public static void main(String[]args){
+        Scanner in=new Scanner(System.in);
         BankAccount a1= new BankAccount();
         BankAccount a2= new BankAccount();
         BankAccount a3= new BankAccount();
         BankAccount a4= new BankAccount();
+        
+        System.out.println("introduzca su nombre");
+        String nombre=in.next();
+        System.out.println("Introduzca su Número de cuenta");
+        String n=in.next();
+        a2.setNoCuenta(n);
+        System.out.println("Introduzca su saldo inicial");
+        int s=in.nextInt();
+        a3.setSaldo(s);
     }
+    
+    
     
 }
