@@ -34,24 +34,21 @@ public class Event {
      public int getPrecio(){
         return Precio;
     }
-    public void setNumEvento(String a){
-        this.NumEvento=a;
-    }
+//    public void setNumEvento(String a){
+//        this.NumEvento=a;
+//    }
     
     public void setInvitados(Integer a){
         this.Invitados=a;
     }
     
-    public void setPrecio(Integer a){
-        this.Precio=a;
+    public  void setEventNumber(String n){
+        NumEvento=n;
     }
     
-    public  void setEventNumber(){
-        this.NumEvento=NumEvento;
-    }
-    
-    public  void setGuests(Event A){ 
-        this.setPrecio(A.getInvitados()*this.getPrice());
+    public  void setGuests(Integer invitados){ 
+        Invitados=invitados;
+        Precio=(Invitados*this.getPrice());
         
     }
     

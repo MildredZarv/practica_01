@@ -13,9 +13,16 @@ public class Rental {
      public final static Integer tarifa=40;
      public final static Integer MAH=60;
      private String ContractNumber="K681";
-     private Integer NOHFTR=39;
-     private Integer minutesOverAnHour=0;
-     private Integer price=1;
+     private Integer NOHFTR;
+     private Integer minutesOverAnHour;
+     private Integer price;
+     
+     public Rental(){
+         ContractNumber="K681";
+         NOHFTR=39;
+         minutesOverAnHour=0;
+         price=1;
+     }
      
    
     public void setContractNumber(){
