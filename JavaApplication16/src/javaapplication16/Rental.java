@@ -25,27 +25,27 @@ public class Rental {
      }
      
    
-    public void setContractNumber(){
-        this.ContractNumber=ContractNumber;
+    public void setContractNumber(String a){
+        ContractNumber=a;
     }
     
     public void setHoursAndMinutes(Integer minutes){
-        int hours=minutes/60;
-        int adicionales=minutes%60;
-        double precio=this.tarifa*hours + adicionales*1; 
+        NOHFTR=minutes/60;
+        minutesOverAnHour=minutes%60;
+        price=this.tarifa*NOHFTR + minutesOverAnHour; 
         
     }
     
     public String getContractNumber(){
         return ContractNumber;
     }
-    public int getNOHFTR(){
+    public Integer getNOHFTR(){
         return NOHFTR;
     }
-    public int getminutesOverAnHour(){
+    public Integer getminutesOverAnHour(){
         return minutesOverAnHour;
     }
-    public int getprice(){
+    public Integer getprice(){
         return price;
     }
 }
