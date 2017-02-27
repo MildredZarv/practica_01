@@ -16,12 +16,10 @@ public class Event {
     private Integer Invitados;
     private Integer Precio;
     
-    public Event(String a, Integer n, Integer b){
-        this.Invitados=n;
-        this.NumEvento=a;
-        this.Precio=b;
+    public Event(String a, Integer n){
+        NumEvento=a;
+        Invitados=n;
     }
-    
     public int getPrice(){
         return Price;
     }

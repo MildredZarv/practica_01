@@ -12,7 +12,7 @@ package javaapplication16;
 public class Rental {
      public final static Integer tarifa=40;
      public final static Integer MAH=60;
-     private String ContractNumber="K681";
+     private String ContractNumber;
      private Integer NOHFTR;
      private Integer minutesOverAnHour;
      private Integer price;
@@ -21,6 +21,12 @@ public class Rental {
          ContractNumber="K681";
          NOHFTR=39;
          minutesOverAnHour=0;
+         price=1;
+     }
+      public Rental(String a, Integer n){
+         ContractNumber=a;
+         NOHFTR=39;
+         minutesOverAnHour=n;
          price=1;
      }
      
