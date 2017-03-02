@@ -9,11 +9,10 @@ package javaapplication16;
  *
  * @author MildReed Zaarv'
  */
-public class LeapYear extends Year{
-    public LeapYear(){
-        super();
-        super.setdias(366);
+public class DemoHolidayCabinRental {
+    public static void main(String[]args){
+        HolidayCabinRental c=new HolidayCabinRental(2);
+        CaninRental c1= new CaninRental(3);
     }
-    
     
 }
