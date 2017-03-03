@@ -9,11 +9,11 @@ package javaapplication16;
  *
  * @author MildReed Zaarv'
  */
-public class HolidayCabinRental extends CaninRental{
+public class InsuredPackage extends Package{
     
-    public HolidayCabinRental(Integer n){
-        super(n);
-        super.settarifa(super.gettarifa() + 150);
+    public InsuredPackage(Double a, char b){
+        super(a,b);
+        
     }
     
 }

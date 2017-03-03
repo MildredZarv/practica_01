@@ -23,11 +23,18 @@ public class CaninRental {
         
     }
     
+    public void setcabañas(Integer n){
+        cabañas=n;
+    }
+    public void settarifa(Double a){
+        tarifa=a;
+    }
+    
     public Integer getcabañas(){
         return cabañas;
     }
     
-    public Double getprecio(){
+    public Double gettarifa(){
         return tarifa;
     }
     

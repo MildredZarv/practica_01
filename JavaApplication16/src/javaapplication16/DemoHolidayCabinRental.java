@@ -11,8 +11,12 @@ package javaapplication16;
  */
 public class DemoHolidayCabinRental {
     public static void main(String[]args){
-        HolidayCabinRental c=new HolidayCabinRental(2);
+        
         CaninRental c1= new CaninRental(3);
+        HolidayCabinRental c=new HolidayCabinRental(2);
+        
+        System.out.println("Cabaña 1: "+c1.getcabañas()+"\nTarifa: $"+c1.gettarifa());
+        System.out.println("Cabaña 2: "+c.getcabañas()+"\nTarifa: $"+c.gettarifa());
     }
     
 }
